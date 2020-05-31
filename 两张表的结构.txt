@@ -1,0 +1,15 @@
+表名：  dbo.FIXDESCR
+字段名                               数据类型                      中文名                 
+ALM_TAGNAME                 char(30)                      报警标签名            主键
+ALM_DESCR                      char(480)                     报警描述
+ALM_ALMPRIORITY           char(10)                       报警优先级
+ALM_ALMAREA                 char(500)                     报警区域
+
+
+表名： dbo.FIXHISTORY
+字段名                                数据类型                      中文名
+ALM_TAGNAME                 char(30)                      报警标签名            主键
+ALM_NATIVETIMEIN          datetime                     报警开始时间
+ALM_NATIVETIMELAST      datetime                     报警最后时间
+ALM_VALUE                       char(40)                      报警数值
+ALM_ALMSTATUS               char(9)                       报警状态
